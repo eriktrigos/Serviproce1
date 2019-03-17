@@ -276,10 +276,11 @@ a.text-very-light-gray-hover:hover {color:#ededed}
 ====================================== */
 
 .center-col {float:none; margin-left:auto; margin-right:auto }
-section {padding: 130px 0; overflow: hidden;}
+section {padding: 30px 0; overflow: hidden;}
 section.big-section {padding:160px 0;}
 section.extra-big-section {padding:200px 0;}
 section.half-section {padding:80px 0;}
+section.asd {padding: 100px 0;}
 .overlap-section {margin-top:-14%; position: relative}
 .col-2-nth .col-md-6:nth-child(2n+1) {clear: left;}
 .col-2-nth .col-sm-6:nth-child(2n+1) {clear: left;}
@@ -3104,7 +3105,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .list-style-4 li { position: relative; padding: 0 0 10px 22px; margin: 0 0 10px 0; border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
 .list-style-4 li:before { content: "\f00c"; position: absolute; top: 1px; left: 0; font-family: 'FontAwesome' }
 .list-style-4 li:last-child {border-bottom: 0;}
-.list-style-4.list-style-color li {border-color: rgba(255,255,255,.15);}
+.list-style-4.list-style-color li {border-color: #921914;}
 .list-style-4.list-style-color li:before {color: #ff214f}
 
 /* list style 5 */
