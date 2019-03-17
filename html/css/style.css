@@ -2341,7 +2341,7 @@ header nav .nav-header-container {display: table-cell; vertical-align: middle; p
 header nav .navbar-nav > li > a {color: #232323; font-size: 12px; font-weight: 800; margin:0 20px; padding: 5px 0px 5px; text-transform: uppercase; letter-spacing: 0.015em;}
 header nav .navbar-nav > li > a.idiomas {color: #232323; font-size: 12px; font-weight: 800; margin:0px; padding: 5px 0px 5px; text-transform: uppercase; letter-spacing: 0.015em;}
 header nav .navbar-nav > li > a:hover, header nav .navbar-nav > li > a:focus, header nav .navbar-nav > li.active > a {background: transparent;}
-header nav .navbar-nav > li:last-child a { margin-right: 0;}
+header nav .navbar-nav > li:last-child a { margin-right: 0 margin-left: 20px;}
 header nav .navbar-nav > li:last-child a.idiomas { margin-right: 20px;}
 .navbar-fixed-bottom, .navbar-fixed-top {z-index: 9999}
 header nav.navbar-default .navbar-nav > li > a:hover, header nav.navbar-default .navbar-nav > li > a:focus, header nav.navbar-default .navbar-nav > li.active > a {border-bottom-color: #232323}

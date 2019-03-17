@@ -1,6 +1,7 @@
 @media (min-width: 992px) {
     .feature-box-14 > div:nth-child(even) { border-bottom: 0}
     .feature-box-14 > div:nth-child(odd) { border-bottom: 0}
+    
 
     /*top logo*/
     .navbar-brand-top .navbar-collapse.collapse.display-inline-block { display: inline-block !important; vertical-align: middle;}
@@ -9,6 +10,12 @@
     .navbar-brand-top .brand-top-menu-right { vertical-align: middle; position: relative; }
     .navbar.navbar-brand-top .row > div:first-child { flex: inherit;}
 }
+@media (max-width: 991px){
+    li.quitar{
+        display: none !important;
+    }
+}
+
 @media (min-width: 768px) {
     .feature-box-14 > div:nth-last-child(2) { border-bottom: 0}
 }
