@@ -48,9 +48,12 @@ Table of contents
 body{ font-family: 'PT+Sans', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:14px; color:#6f6f6f; font-weight: 400;line-height: 24px;}
 body, html { height: 100%; -moz-osx-font-smoothing: grayscale;}
 a, a:active, a:focus { color: #fff; text-decoration: none; }
-a:hover, a:active{color: #000; text-decoration: none;}
+a:hover, a:active{color: #E52C27; text-decoration: none;}
 a:focus, a:active, button:focus, button:active,.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {outline: none;}
-a.idiomas, a.idiomas:active, a.idiomas:focus { color: #123456; text-decoration: none; }
+a.idiomas, a.idiomas:active, a.idiomas:focus { color: #fff; text-decoration: none; }
+a.idiomas:hover, a.idiomas:active, a.idiomas:visited {color: #921914;}
+a.blanco, a.blanco:active, a.blanco:focus { color: #fff; text-decoration: none; }
+a.blanco:hover, a.blanco:active, a.blanco:visited {color: #fff;}
 a.transporte, a.transporte:active, a.transporte:focus, a.transporte:visited {color: #757575;}
 a.contactoN, a.contactoN:active, a.contactoN:focus {color: #fff;}
 a.contactoN:hover, a.contactoN:active {color: #E52C27;}
