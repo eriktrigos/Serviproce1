@@ -9,8 +9,8 @@
 	$budget=$_POST["budget"];
 	
 	// Email Receiver Address
-	$receiver="info@yourdomain.com";
-	$subject="Contact form details";
+	$receiver="customerservice@serviproce.com.mx";
+	$subject="Mensaje eviando desde la página web";
 
 	$message = "
 	<html>
@@ -58,12 +58,12 @@ $headers .= 'From: <'.$from.'>' . "\r\n";
    if(mail($receiver,$subject,$message,$headers))  
    {
 	   //Success Message
-      echo "The message has been sent!";
+      echo "¡Tu mensaje ha sido enviado!";
    }
    else
    {	
    	 //Fail Message
-      echo "The message could not been sent!";
+      echo "Este mensaje no pudo ser enviado.";
    }
 
 }
