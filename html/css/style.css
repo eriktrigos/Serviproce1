@@ -126,6 +126,7 @@ h7 {font-size:12px; line-height:0px}
 .text-very-light-gray {color:#ededed}
 .text-deep-pink {color:#E52C27}
 .text-marron {color:#490D0A}
+.text-marroncito {color: #921914}
 
 /* dropcap */
 .first-letter {float: left; font-size: 50px; line-height: auto; margin: 0 20px 0 0; text-align: center; padding: 10px 0; font-weight: 600}
@@ -3337,7 +3338,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .feature-box.feature-box-17 .box .content .details {opacity: 0;}
 .feature-box.feature-box-17 .box:hover .content .details {opacity: 1;}
 .feature-box.feature-box-17 .box:hover .content {top: 0; border-bottom-color: #ff214f;}
-.feature-box.feature-box-17 .box:hover {background-color: #ff214f; }
+.feature-box.feature-box-17 .box:hover {background-color: #921914; }
 .feature-box.feature-box-17 .box:hover i, .feature-box.feature-box-17 .box:hover .text-white-hover {color: #ffffff }
 
 /* info banner box style 2 */
