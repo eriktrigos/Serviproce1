@@ -1576,6 +1576,51 @@ $(document).ready(function () {
         return error;
     }
 
+    //Project contact from quotation
+    $('#project-quotation-button').on("click", function () {
+        var error = ValidationProjectContactForm();
+        if (error) {
+            $.ajax({
+                type: "POST",
+                url: "email-templates/quotation.php",
+                data: $("#project-contact-form").serialize(),
+                success: function (result) {
+                    // Un-comment below code to redirect user to thank you page.
+                    //window.location.href="thank-you.html";
+
+                    $('input[type=text],textarea').each(function () {
+                        $(this).val('');
+                    })
+                    $("#success-project-contact-form").html(result);
+                    $("#success-project-contact-form").fadeIn("slow");
+                    $('#success-project-contact-form').delay(4000).fadeOut("slow");
+                }
+            });
+        }
+    });
+    function ValidationProjectContactForm() {
+        var error = true;
+        $('#project-contact-form input[type=text]').each(function (index) {
+            if (index == 0) {
+                if ($(this).val() == null || $(this).val() == "") {
+                    $("#project-contact-form").find("input:eq(" + index + ")").addClass("required-error");
+                    error = false;
+                } else {
+                    $("#project-contact-form").find("input:eq(" + index + ")").removeClass("required-error");
+                }
+            } else if (index == 2) {
+                if (!(/(.+)@(.+){2,}\.(.+){2,}/.test($(this).val()))) {
+                    $("#project-contact-form").find("input:eq(" + index + ")").addClass("required-error");
+                    error = false;
+                } else {
+                    $("#project-contact-form").find("input:eq(" + index + ")").removeClass("required-error");
+                }
+            }
+
+        });
+        return error;
+    }
+
 
     /*==============================================================
     End form to email
