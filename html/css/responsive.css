@@ -11,9 +11,13 @@
     .navbar.navbar-brand-top .row > div:first-child { flex: inherit;}
 }
 @media (max-width: 991px){
-    li.quitar{
-        display: none !important;
-    }
+    li.quitar {display: none !important;}
+}
+
+@media(max-width: 991px){
+    .buy-theme{position: fixed; bottom: 0px; top: 90%; right: 0px; left: 0px;}
+    .buy-theme a{ padding-top: 5%;}
+        
 }
 
 @media (min-width: 768px) {
