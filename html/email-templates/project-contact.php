@@ -9,25 +9,25 @@
 	$budget=$_POST["budget"];
 	
 	// Email Receiver Address
-	$receiver="luiserik_gt@hotmail.com";
+	$receiver="erik@inventio.mx";
 	$subject="Mensaje eviando desde la página web";
 
 	$message = "
 	<html>
 	<head>
-	<title>HTML email</title>
+	<title>Email Enviado desde la página web</title>
 	</head>
 	<body>
 	<table width='50%' border='0' align='center' cellpadding='0' cellspacing='0'>
 	<tr>
-	<td colspan='2' align='center' valign='top'><img style=' margin-top: 15px; ' src='http://www.yourdomain.com/images/logo-email.png' ></td>
+	<td colspan='2' align='center' valign='top'><img style=' margin-top: 15px; ' src='http://www.inventio.mx/serviproce/images/logo-mail.png' ></td>
 	</tr>
 	<tr>
 	<td width='50%' align='right'>&nbsp;</td>
 	<td align='left'>&nbsp;</td>
 	</tr>
 	<tr>
-	<td align='right' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>Name:</td>
+	<td align='right' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>Nombre:</td>
 	<td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$name."</td>
 	</tr>
 	<tr>
@@ -35,15 +35,7 @@
 	<td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$from."</td>
 	</tr>
 	<tr>
-	<td align='right' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>Phone:</td>
-	<td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$phone."</td>
-	</tr>
-	<tr>
-	<td align='right' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>Budget:</td>
-	<td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$budget."</td>
-	</tr>
-	<tr>
-	<td align='right' valign='top' style='border-top:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>Message:</td>
+	<td align='right' valign='top' style='border-top:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>Mensaje:</td>
 	<td align='left' valign='top' style='border-top:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".nl2br($comment)."</td>
 	</tr>
 	</table>

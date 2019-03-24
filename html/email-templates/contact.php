@@ -8,7 +8,7 @@
 	$comment=$_POST["comment"];
 	
 	// Email Receiver Address
-	$receiver="luiserik_gt@hotmail.com";
+	$receiver="erik@inventio.mx";
 	$subject="Mensaje eviando desde la página web";
 
 	$message = "
