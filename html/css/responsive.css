@@ -15,17 +15,17 @@
 }
 
 @media(max-width: 991px){
-    .buy-theme{position: fixed !important; bottom: 0px !important; top: 95% !important; right: 0px !important; left: 0px !important; }
+    .buy-theme{position: sticky; position: -webkit-sticky; bottom: 0px !important; top: 95% !important; right: 0px !important; left: 0px !important; }
     .buy-theme a{ padding-top: 1.3% !important;}
 }
 
 @media(max-width: 767px){
-    .buy-theme{position: fixed !important; bottom: 0px !important; top: 95% !important; right: 0px !important; left: 0px !important;}
+    .buy-theme{position: sticky; position: -webkit-sticky; bottom: 0px !important; top: 95% !important; right: 0px !important; left: 0px !important;}
     .buy-theme a{ padding-top: 2% !important;}
 }
 
 @media(max-width: 320px){
-    .buy-theme{position: fixed !important; bottom: 0px !important; top: 95% !important; right: 0px !important; left: 0px !important;}
+    .buy-theme{position: sticky; position: -webkit-sticky; bottom: 0px !important; top: 95% !important; right: 0px !important; left: 0px !important;}
     .buy-theme a{ padding-top: 5% !important;}
 }
 
