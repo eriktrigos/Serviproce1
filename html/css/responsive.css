@@ -1551,11 +1551,13 @@
     nav.navbar.bootsnav ul.nav li.dropdown.simple-dropdown ul.dropdown-menu > li > a{padding: 7px 0; left: 0}
     .dropdown.simple-dropdown.open .dropdown-menu .dropdown .dropdown-menu {display: block !important; opacity: 1 !important}
     nav.navbar.bootsnav ul.nav li.dropdown.simple-dropdown.open ul.dropdown-menu li > a.dropdown-toggle {border-bottom: 1px solid rgba(255, 255, 255, 0.06); color: #fff;}
+    nav.navbar.bootsnav ul.nav li.dropdown.simple-dropdown.open ul.dropdown-menu li > a.sub-menu {border-bottom: 1px solid rgba(255, 255, 255, 0.06); color: #fff;}
     nav.navbar.bootsnav ul.nav .simple-dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu {padding-left: 0 !important}
 
     nav.navbar.bootsnav .simple-dropdown .dropdown-menu > li.dropdown > ul, nav.navbar.bootsnav .simple-dropdown .dropdown-menu > li.dropdown > ul > li.dropdown > ul {left : 0;}
 
     .simple-dropdown .dropdown-menu > li > a.dropdown-toggle .fa {display:none}
+    .simple-dropdown .dropdown-menu > li > a.sub-menu .fa {display:none}
     nav .accordion-menu {padding: 26px 15px 26px 15px;}
     .sticky nav .accordion-menu {padding: 26px 15px 26px 15px;}
     nav.navbar.bootsnav.menu-center ul.nav.navbar-center {width:100%;}
@@ -2980,7 +2982,7 @@
 
     /* full width menu nav */
     .full-width-pull-menu .link-style-2 ul li a {font-size: 36px; line-height: 70px}
-    .full-width-pull-menu .dropdown .dropdown-toggle {top: 35px}
+    .full-width-pull-menu .dropdown .dropdown-toggle .sub-menu {top: 35px}
 
     /* feature box 10 */
     .feature-box-10 .number-center::before {width: 100%;}
@@ -4535,9 +4537,9 @@
     .close-button-menu {top:5px; right:5px}
 
     /* full width pull menu */
-    .full-width-pull-menu .dropdown span.dropdown-toggle {width:30px; height:30px; top:21px}
-    .full-width-pull-menu .dropdown .dropdown-toggle:before {right:15px; top:10px}
-    .full-width-pull-menu .dropdown .dropdown-toggle:after {right:10px; top:15px}
+    .full-width-pull-menu .dropdown span.dropdown-toggle span.sub-menu {width:30px; height:30px; top:21px}
+    .full-width-pull-menu .dropdown .dropdown-toggle:before .sub-menu:before {right:15px; top:10px}
+    .full-width-pull-menu .dropdown .dropdown-toggle:after .sub-menu:after {right:10px; top:15px}
 
     /* btn */
     .btn-dual .btn { margin:10px auto !important; display: table; min-width: 160px; }
