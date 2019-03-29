@@ -1266,6 +1266,7 @@ $(document).ready(function () {
     $("#success-contact-form-2").hide();
     $("#success-contact-form-3").hide();
     $("#success-project-contact-form-4").hide();
+    $("#success-project-quotation-form").hide();
 
     //Subscribe newsletter form
     $('#button-subscribe-newsletter').on("click", function () {
@@ -1591,9 +1592,9 @@ $(document).ready(function () {
                     $('input[type=text],textarea').each(function () {
                         $(this).val('');
                     })
-                    $("#success-project-contact-form").html(result);
-                    $("#success-project-contact-form").fadeIn("slow");
-                    $('#success-project-contact-form').delay(4000).fadeOut("slow");
+                    $("#success-project-quotation-form").html(result);
+                    $("#success-project-quotation-form").fadeIn("slow");
+                    $('#success-project-quotation-form').delay(4000).fadeOut("slow");
                 }
             });
         }
