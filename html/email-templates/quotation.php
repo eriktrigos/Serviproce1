@@ -10,8 +10,8 @@
 	$comment=$_POST["comment"];
 	
 	// Email Receiver Address
-	$receiver="erik@inventio.mx";
-	$subject="Solicitud de Cotización";
+	$receiver="customerservice@serviproce.com.mx";
+	$subject="Solicitud de Cotizacion";
 
 	$message = "
 	<html>

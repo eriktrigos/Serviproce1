@@ -9,8 +9,8 @@
 	$budget=$_POST["budget"];
 	
 	// Email Receiver Address
-	$receiver="erik@inventio.mx";
-	$subject="Mensaje eviando desde la página web";
+	$receiver="customerservice@serviproce.com.mx";
+	$subject="Mensaje eviando desde la pagina web";
 
 	$message = "
 	<html>
