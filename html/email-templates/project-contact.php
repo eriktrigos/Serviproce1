@@ -10,7 +10,7 @@
 	
 	// Email Receiver Address
 	$receiver="customerservice@serviproce.com.mx";
-	$subject="Mensaje eviando desde la pagina web";
+	$subject="Contacto desde pagina web";
 
 	$message = "
 	<html>
